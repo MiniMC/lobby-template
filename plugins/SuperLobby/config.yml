@@ -5,7 +5,7 @@ update-check: true
 prefix: '&bMiniMC &8&l>> &r&7'
 messages: EN
 join-clear-inventory: true
-join-clear-chat: true
+join-clear-chat: false
 join-spawn: true
 command-spawn: true
 info-commands: true

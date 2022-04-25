@@ -15,27 +15,27 @@ board:
   line2:
     content:
     - ''
-    update: 60000
+    update: 100000
   line3:
     content:
     - '&fName: &7<player>'
-    update: 10000
+    update: 100000
   line4:
     content:
     - '&fRank: %luckperms_prefix%'
-    update: 1000
+    update: 5000
   line5:
     content:
     - '                     '
-    update: 60000
+    update: 100000
   line6:
     content:
     - '&fLevel: &70'
-    update: 600000
+    update: 50000
   line7:
     content:
     - '&fFriends: &7%friendsapi_friendcount%'
-    update: 60000
+    update: 5000
   line8:
     content:
     - '&fPlayers Online: &7%server_online%'
