@@ -40,7 +40,7 @@ titles:
       title: '&bOfficial server.'
       subtitle: '&bmc.mundopixels.net'
 bossbar:
-  enable: true
+  enable: false
   interval: 200
   list:
     bossbar1:
