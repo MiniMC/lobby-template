@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 83.128.130.178
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1650730166586
+  login: 1650730237134
+money: '0'
+last-account-name: bureaublad
+logoutlocation:
+  world: 0f539e32-27ce-4bb6-9971-2830a03d23f1
+  world-name: world
+  x: -1521.2520496311786
+  y: 111.0
+  z: 683.4623794440812
+  yaw: 101.78800201416016
+  pitch: 11.216422080993652

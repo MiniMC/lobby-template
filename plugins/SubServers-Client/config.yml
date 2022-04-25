@@ -1,0 +1,9 @@
+Settings:
+  Version: 21w52a
+  API-Only-Mode: false
+  Allow-Deletion: false
+  Show-Addresses: false
+  Use-Title-Messages: true
+  PlaceholderAPI-Ready: true
+  SubData:
+    Address: 127.0.0.1:5000

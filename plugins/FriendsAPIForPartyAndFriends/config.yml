@@ -1,0 +1,9 @@
+MySQL:
+  Host: een.minimc.nl
+  Port: 3306
+  Username: remote
+  Password: AJHSDGajkygdyiwugauiygsdjyGAJSYGDJYAGsdjy
+  Database: party
+  TablePrefix: fr_
+  UseSSL: false
+IsOnlineServer: true

@@ -1,0 +1,50 @@
+
+settings-enable: true
+settings-update-title: 3
+settings-world:
+- world
+- lobby
+- hub
+settings-title:
+- '&b&lMiniMC'
+board:
+  line1:
+    content:
+    - '&7%localtime_time_dd.MM.yyyy% &8%thewalls_servername%'
+    update: 1000
+  line2:
+    content:
+    - ''
+    update: 60000
+  line3:
+    content:
+    - '&fName: &7<player>'
+    update: 10000
+  line4:
+    content:
+    - '&fRank: %luckperms_prefix%'
+    update: 1000
+  line5:
+    content:
+    - '                     '
+    update: 60000
+  line6:
+    content:
+    - '&fLevel: &70'
+    update: 600000
+  line7:
+    content:
+    - '&fFriends: &7%friendsapi_friendcount%'
+    update: 60000
+  line8:
+    content:
+    - '&fPlayers Online: &7%server_online%'
+    update: 5000
+  line9:
+    content:
+    - ' '
+    update: 600000
+  line10:
+    content:
+    - '&bwww.minimc.nl'
+    update: 600000

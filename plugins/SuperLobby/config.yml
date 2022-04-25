@@ -1,0 +1,265 @@
+
+debug: false
+newconfig: true
+update-check: true
+prefix: '&bMiniMC &8&l>> &r&7'
+messages: EN
+join-clear-inventory: true
+join-clear-chat: true
+join-spawn: true
+command-spawn: true
+info-commands: true
+custom-events: true
+menu: false
+disable-daylight-sensor-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-dropper-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-hopper-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-fence-gate-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-trapdoor-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-button-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-dispenser-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-noteblock-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-armorstands-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-door-interaction:
+  enable: true
+  world:
+  - world
+  - auth
+disable-rain:
+  enable: true
+  world:
+  - world
+  - auth
+disable-block-break:
+  enable: true
+  world:
+  - world
+  - auth
+disable-block-place:
+  enable: true
+  world:
+  - world
+  - auth
+disable-block-burn:
+  enable: true
+  world:
+  - world
+  - auth
+disable-drop-item:
+  enable: true
+  world:
+  - world
+  - auth
+disable-item-move:
+  enable: true
+  world:
+  - world
+  - auth
+disable-item-damage:
+  enable: true
+  world:
+  - world
+  - auth
+disable-pick-up-items:
+  enable: true
+  world:
+  - world
+  - auth
+disable-entity-explode:
+  enable: true
+  world:
+  - world
+  - auth
+disable-damage:
+  enable: true
+  world:
+  - world
+  - auth
+disable-hunger:
+  enable: true
+  world:
+  - world
+  - auth
+disable-death-message:
+  enable: true
+  world:
+  - world
+  - auth
+disable-creature-spawn:
+  enable: true
+  world:
+  - world
+  - auth
+clear-drops-on-death:
+  enable: true
+  world:
+  - world
+  - auth
+world-items:
+  enable: true
+  join-server: true
+  respawn: true
+  join-world: true
+  world:
+  - world
+void-tp:
+  enable: true
+  level: 0
+  world:
+  - world
+  - auth
+always-day:
+  enable: true
+  world:
+  - world
+  - auth
+always-night:
+  enable: false
+  world:
+  - world
+  - auth
+frame-protect:
+  enable: true
+  world:
+  - world
+  - auth
+farm-protect:
+  enable: true
+  world:
+  - world
+  - auth
+jump-pads:
+  enable: true
+  plate-block: LIGHT_WEIGHTED_PRESSURE_PLATE
+  plate-block-old: GOLD_PLATE
+  sound: BLOCK_PISTON_EXTEND
+  sound-old: PISTON_EXTEND
+  world:
+  - world
+  - auth
+join-boss-bar:
+  enable: true
+  message: '&bWelcome to MiniMC!'
+  color: BLUE
+  style: NOTCHED_20
+  seconds: 10
+join-tab:
+  enable: false
+  update: 1000
+  header: |-
+    &7
+    &f&m--&7&m--&8&m[-&r &6&lMUNDO&f&lPIXELS &7&lNETWORK &8&m-]&7&m--&f&m--
+    &7
+  footer: |-
+    &7
+    &7Website: &7mundopixels.net
+    &7Facebook: &7facebook.mundopixels.net
+    &7Store: &7tienda.mundopixels.net
+    &7
+join-titles:
+  enable: false
+  fade-in: 20
+  stay: 50
+  fade-out: 10
+  title: '&6<player> &bWelcome to'
+  sub-title: '&6&lMUNDO&f&lPIXELS'
+join-motd:
+  enable: true
+  message:
+  - '&9&m---------------------------------------------------'
+  - ' '
+  - '&9# &b&l<player> &7Welcome to &b&lMiniMC!'
+  - ' '
+  - '&9# &7Buy a rank on: &bminimc.nl'
+  - '&9# &7Discord: &bdiscord.minimc.nl'
+  - '&9# &7For more information type &b/help'
+  - ' '
+  - '&9&m---------------------------------------------------'
+join-action-bar:
+  enable: false
+  seconds: 10
+  message: '&6Welcome to mundopixels!'
+commands-blacklist:
+  enable: true
+  bypass: superlobby.admin
+  list:
+  - /p
+  - /pl
+  - /bukkit:pl
+  - /'?'
+  - /bukkit:?
+  - /help
+  - /bukkit:help
+  - /plugins
+  - /bukkit:plugins
+  - /about
+  - /bukkit:about
+  - /ver
+  - /bukkit:ver
+  - /version
+  - /bukkit:version
+  - /gc
+  - /tps
+  - /me
+  - /bukkit:me
+  - /bukkit:ehelp
+  - /icanhasbukkit
+  - /icanhasspigot
+  - /info
+  - /mc:help
+  - /minecraft:help
+  - /essentials:help
+  - /essentials:ehelp
+  - /perm
+  - /mv
+  - /multiverse-core:mv
+  - /we
+  - /worldedit
+disable-tab-complete:
+  enable: false
+  bypass: superlobby.staff
+  whitelist:
+  - /warp
+  - /menu
+  - /games
+  - /info
+  - /yt
+  - /pay
+  - /tpa
+  - /tpaccept
