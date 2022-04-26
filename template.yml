@@ -1,7 +1,7 @@
 Version: '2.18a+'
 Template:
   Enabled: true
-  Icon: 'purpur_block'
+  Icon: 'paper_block'
   Build:
     Server-Type: 'Spigot'
     Use-Cache: false
@@ -9,4 +9,4 @@ Template:
     Can-Update: true
     Executable: 'bash build.sh'
   Settings:
-    Executable: 'java -Xmx1024M -Dterminal.jline=false -jar Purpur.jar nogui'
+    Executable: 'java -Xmx1024M -Dterminal.jline=false -jar Paper.jar nogui'
