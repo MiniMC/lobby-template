@@ -8,13 +8,13 @@ database:
   # Type of database.
   type: MySQL
   # Address of the server
-  hostname: 'een.minimc.nl'
+  hostname: '127.0.0.1'
   # Port of the server
   port: 3306
   # Username to connect with
-  username: 'remote'
+  username: 'user'
   # Password for the user
-  password: 'AJHSDGajkygdyiwugauiygsdjyGAJSYGDJYAGsdjy'
+  password: 'password'
   # Prefix for the tables
   prefix: acr_
   # Database/Schema to use
